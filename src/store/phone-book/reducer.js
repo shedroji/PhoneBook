@@ -1,4 +1,7 @@
-import { ADD_CONTACT, DELETE_CONTACT } from './enum';
+import { 
+    ADD_CONTACT,
+    DELETE_CONTACT
+} from './enum';
 
 let initialState = {
     data: []

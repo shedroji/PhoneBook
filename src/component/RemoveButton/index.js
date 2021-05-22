@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { useDispatch } from 'react-redux';
 
 import { deleteContact } from '../../store/phone-book/action'

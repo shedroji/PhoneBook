@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { initialStore } from './store';
 
+import { initialStore } from './store';
 import Main from './Main';
 
 const store = initialStore();
