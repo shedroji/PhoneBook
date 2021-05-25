@@ -19,7 +19,7 @@ const List = ({ list }) => {
                     return (
                         <tr key={id}>
                             <td>{item.name}</td>
-                            <td>{item.phone_number}</td>
+                            <td>{item.phone_number.length === 10 ? item.phone_number : 'This Phone number is invalid.'}</td>
                             <td><RemoveButton  id={id}/></td>
                         </tr>
                     );
