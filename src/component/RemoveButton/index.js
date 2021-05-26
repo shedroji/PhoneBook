@@ -19,7 +19,7 @@ const RemoveButton = (id) => {
                 onClick={() => removeContact(id)}
                 >
                     Remove
-                </button>
+            </button>
         </>
     )
 };
